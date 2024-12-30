@@ -1,0 +1,92 @@
+#!/bin/bash
+
+# Create a single directory
+mkdir dir1
+echo "Created directory: dir1"
+ls
+
+# Create nested directories in one command
+mkdir -p dir2/dir3/dir4
+echo "Created nested directories: dir2/dir3/dir4"
+ls
+
+# Navigate into dir2, list contents, and navigate into dir3
+cd dir2
+ls
+echo "Inside dir2"
+cd dir3
+ls
+echo "Inside dir3"
+
+# Navigate back to the root directory
+cd ../../..
+echo "Returned to root directory"
+
+# Create multiple directories in one command
+mkdir dir4 dir5 dir6
+echo "Created multiple directories: dir4, dir5, dir6"
+ls
+
+# Create a hidden file
+touch .ram
+echo "Created hidden file: .ram"
+ls
+ls -a
+echo "Displayed hidden files and folders"
+
+# Copy a file (ensure file1 exists before running this script)
+touch file1  # Create file1 if it doesn't exist for demonstration
+cp file1 file2
+echo "Copied file1 to file2"
+
+# Move (cut and paste) a file
+mv file2 dir1
+echo "Moved file2 to dir1"
+
+# Rename a file
+mv file1 myfile
+echo "Renamed file1 to myfile"
+# How to create a directory?
+
+# Create a single directory
+# mkdir dir1
+# ls
+# Output: dir1
+
+# Create nested directories in one command
+# mkdir -p dir2/dir3/dir4
+# ls
+# cd dir2
+# ls
+# Output: dir3
+# cd dir3
+# ls
+# Output: dir4
+
+# Navigate back to the root directory
+# cd ../../..
+
+# Create multiple directories in one command
+# mkdir dir4 dir5 dir6
+
+-----------------------------------------------------------------
+
+# How to hide a file, copy a file, cut/paste a file, and rename a file?
+
+# Create a hidden file
+# touch .ram
+# ls
+# ls -a
+# (Shows hidden files and folders)
+
+# Copy a file
+# cp file1 file2
+# (file1 is the source, file2 is the destination)
+
+# Move (cut and paste) a file
+# mv file2 dir1
+# (file2 is the source, dir1 is the destination)
+
+# Rename a file
+# mv file1 myfile
+# (file1 is the old name, myfile is the new name)
