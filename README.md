@@ -19,7 +19,7 @@ DevOps-Linux-Project/
 
 Phase 1: Basics of Linux
 
-1. Setup
+#1. Setup
 
 Example: Install Ubuntu
 
@@ -27,7 +27,7 @@ Install Ubuntu (or any Linux distribution) on a virtual machine or dual boot.
 
 Familiarize yourself with the terminal.
 
-2. Basic Commands
+#2. Basic Commands
 
 Example: Create Project Structure
 
@@ -37,7 +37,7 @@ Create the project directory structure:
 
 mkdir -p DevOps-Linux-Project/{scripts,logs,backups,configs}
 
-3. File Manipulation
+#3. File Manipulation
 
 Example: Modify Permissions
 
@@ -48,7 +48,7 @@ Practice file permissions:
 chmod +x scripts/*
 chown $USER:$USER logs/
 
-4. Practice Script
+#4. Practice Script
 
 Example: Automate Directory Creation
 
@@ -59,27 +59,27 @@ mkdir -p DevOps-Linux-Project/{scripts,logs,backups,configs}
 touch DevOps-Linux-Project/{scripts/script1.sh,logs/app.log,configs/app.conf}
 echo "Project structure created!"
 
-Phase 2: Intermediate Linux Skills
+#Phase 2: Intermediate Linux Skills
 
-1. Process Management
+#1. Process Management
 
 Example: List Running Processes
 
 Learn ps, top, kill, jobs, bg, fg.
 
-2. Networking Commands
+#2. Networking Commands
 
 Example: Check Connectivity
 
 Practice ping, curl, wget, ifconfig.
 
-3. Archiving and Compression
+#3. Archiving and Compression
 
 Example: Compress Logs
 
 Use tar, gzip, gunzip, zip, unzip.
 
-4. Task Automation
+#4. Task Automation
 
 Example: Schedule Backups
 
@@ -93,7 +93,7 @@ Add the following line:
 
 Phase 3: Advanced Linux Skills
 
-1. Advanced Scripting
+#1. Advanced Scripting
 
 Example: Monitor Disk Usage
 
@@ -106,7 +106,7 @@ if [ "$USAGE" -gt "$THRESHOLD" ]; then
     echo "Disk usage is above $THRESHOLD%. Current usage: $USAGE%"
 fi
 
-2. User and Group Management
+#2. User and Group Management
 
 Example: Add a User
 
@@ -114,13 +114,13 @@ Add/remove users and groups.
 
 Manage permissions and ownership.
 
-3. Log Analysis
+#3. Log Analysis
 
 Example: Search Logs
 
 Use cat, grep, awk, tail, and head to analyze logs in logs/app.log.
 
-4. Version Control
+#4. Version Control
 
 Example: Initialize Git Repository
 
@@ -130,9 +130,9 @@ git init
 git add .
 git commit -m "Initial commit"
 
-Phase 4: DevOps Integration
+#Phase 4: DevOps Integration
 
-1. Docker Integration
+#1. Docker Integration
 
 Example: Create a Dockerfile
 
@@ -143,21 +143,21 @@ COPY scripts/monitor.sh /usr/local/bin/monitor.sh
 RUN chmod +x /usr/local/bin/monitor.sh
 CMD ["/usr/local/bin/monitor.sh"]
 
-2. Ansible Playbooks
+#2. Ansible Playbooks
 
 Example: Automate Script Deployment
 
 Write a playbook to deploy the scripts and configure cron jobs.
 
-3. Kubernetes Deployment
+#3. Kubernetes Deployment
 
 Example: Deploy as CronJob
 
 Deploy the Dockerized script as a Kubernetes CronJob.
 
-Final Phase: Documentation and Submission
+#Final Phase: Documentation and Submission
 
-1. Documentation
+#1. Documentation
 
 Example: Write README
 
@@ -171,7 +171,7 @@ Scripts and their purpose
 
 Integration with DevOps tools
 
-2. Project Submission
+#2. Project Submission
 
 Example: Push to GitHub
 
