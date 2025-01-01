@@ -1,5 +1,5 @@
 # DevOps-Linux-Mastery
-Linux &amp; Terminal Commands Project: Beginner to Advanced for DevOps
+
 Linux & Terminal Commands Project: Beginner to Advanced for DevOps
 
 Project Title: DevOps Linux Mastery
